@@ -31,9 +31,6 @@ def spawn_fantasma():
     else:
         spawn_fantasma()
 
-# pos_x = random.randint(1,len(mapa[1])-1)
-# pos_y = random.randint(1,len(mapa)-1)
-# print(pos_x,pos_y)
 
 
 spawn_player()
