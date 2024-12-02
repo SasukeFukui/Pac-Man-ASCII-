@@ -8,7 +8,6 @@ mapa = np.array([
     ["#","#","#","#","#","#","#","#","#"]
 ])
 
-# x=x.split(',')
 def exibir_mapa():
     os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela para atualização do mapa
     for linha in mapa:
